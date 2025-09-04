@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bd — препарат для быков</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="BovineMed — современный препарат для поддержания здоровья и продуктивности быков. Инструкция по применению, преимущества, состав и форма выпуска.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Bd</a>
+      <nav class="nav" id="nav">
+        <a href="#about">О препарате</a>
+        <a href="#benefits">Преимущества</a>
+        <a href="#dosage">Применение</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>BovineMed — эффективная поддержка здоровья быков</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam ducimus adipisci molestiae hic nulla reiciendis, odio cumque facilis mollitia ipsam animi, impedit suscipit, repudiandae dolorum dignissimos molestias obcaecati ipsum nesciunt.</p>
+          <div class="hero-ctas">
+            <a class="btn primary" href="#contacts">Заказать пробную партию</a>
+            <a class="btn ghost" href="#about">Узнать больше</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <!-- SVG-иллюстрация быка -->
+          <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Иллюстрация быка">
+            <defs>
+              <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#2b6cb0"/><stop offset="1" stop-color="#63b3ed"/></linearGradient>
+            </defs>
+            <rect width="100%" height="100%" rx="16" fill="url(#g)" />
+            <g transform="translate(40,60) scale(0.9)" fill="#fff">
+              <path d="M80 80c-30 0-50 20-60 40s-5 40 10 60 40 40 70 40 60-20 80-40 30-50 10-70-50-30-110-30z" opacity="0.95"/>
+              <circle cx="120" cy="100" r="8" fill="#2b6cb0" />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="container about" id="about">
+      <h2>О препарате</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci commodi culpa incidunt architecto soluta, impedit aliquid magni accusamus, ad officia, a quod rem consequuntur ratione eaque iure consectetur neque sapiente?</p>
+      <div class="grid three">
+        <div class="card">
+          <h3>Состав</h3>
+          <ul>
+            <li>хз</li>
+            <li>хз хз</li>
+            <li>хз хз хз</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Форма выпуска</h3>
+          <p>хз</p>
+        </div>
+        <div class="card">
+          <h3>Срок хранения</h3>
+          <p>тоже хз</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container benefits" id="benefits">
+      <h2>Преимущества</h2>
+      <div class="grid three">
+        <div class="feature">
+          <h4>есть</h4>
+          <p>наверняка</p>
+        </div>
+        <div class="feature">
+          <h4>есть</h4>
+          <p>наверняка</p>
+        </div>
+        <div class="feature">
+          <h4>есть</h4>
+          <p>наверняка</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container dosage" id="dosage">
+      <h2>применение</h2>
+<p>Семён расскажет</p>
+      <div class="note">какую-нибудь предосторожность</div>
+    </section>
+
+    <section class="container testimonials">
+      <h2>Отзывы</h2>
+      <div class="grid two">
+        <blockquote class="testimonial">
+          можно фейковые добавить
+        </blockquote>
+        <blockquote class="testimonial">
+          можно убрать блок, на усмотрение
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="container contacts" id="contacts">
+      <h2>Контакты и заказ</h2>
+      <div class="grid two">
+        <div>
+          <p>Для заказа и консультации оставьте заявку — мы свяжемся в течение рабочего дня.</p>
+          <ul class="contact-list">
+            <li>Телефон: +7 909 189 22-25</li>
+            <li>Email: нужно сделать</li>
+            <li>Адрес: г. Тюмень Ул.Луначарского 1\1</li>
+          </ul>
+        </div>
+        <form id="contactForm" class="contact-form">
+          <label>Имя<input type="text" name="name" required></label>
+          <label>Телефон<input type="tel" name="phone" required></label>
+          <label>Сообщение<textarea name="message" rows="4"></textarea></label>
+          <button class="btn primary" type="submit">Отправить заявку</button>
+          <div id="formMessage" class="form-message" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2025 Bd. Все права защищены.</div>
+      <div class="small-links"><a href="#">Политика конфиденциальности</a></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
